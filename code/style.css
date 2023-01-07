@@ -1,0 +1,75 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: full;
+  height: 100vh;
+  gap: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form_control {
+  height: 30px;
+  width: 300px;
+  font-size: larger;
+}
+
+.btn {
+  height: 35px;
+  cursor: pointer;
+  font-size: large;
+  background-color: rgb(99, 138, 216);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.heading_row{
+    display: flex;
+    background-color: rgb(178, 178, 225);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .delete{
+    background-color: rgb(186, 49, 49);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: larger;
+  }
+
+  .error_alert{
+    background-color: rgb(169, 53, 53);
+    font-size: larger;
+    color: white;
+    width: 305px;
+    text-align: center;
+  }
+
+  .success_alert{
+    background-color: rgb(83, 181, 106);
+    font-size: larger;
+    color: white;
+    width: 305px;
+    text-align: center;
+  }
